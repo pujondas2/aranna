@@ -1,0 +1,127 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section-title p {
+        color: #323232;
+        width: 77%;
+        margin: auto;
+    }
+
+    .event {
+        background: #fff;
+        padding: 30px 0;
+    }
+
+    .event-name p {
+        font-size: 12px;
+    }
+
+    .price-title h2 {
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .blog-content a.heading h3 {
+        font-size: 18px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title p {
+        color: #323232;
+        width: 90%;
+        margin: auto;
+    }
+
+    .event {
+        background: #fff;
+        padding: 30px 0;
+    }
+
+    .event-name p {
+        font-size: 12px;
+    }
+
+    .cta-area {
+        text-align: center;
+    }
+
+    .cta-right a {
+        margin-top: 30px;
+    }
+
+    .event h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .single-event {
+        padding: 15px 80px;
+    }
+
+    .event-area-btn {
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .event {
+        background: #fff;
+        padding: 30px 0;
+    }
+
+    .event-name p {
+        font-size: 12px;
+    }
+
+    .cta-area {
+        text-align: center;
+    }
+
+    .cta-right a {
+        margin-top: 30px;
+    }
+
+    .event h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .event-area-btn {
+        text-align: center;
+    }
+
+    .testimonial-area {
+        padding-bottom: 100px;
+    }
+
+    .testimonial-img {
+        display: none;
+    }
+
+    .testimonial-content {
+        width: 100%;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
